@@ -1,0 +1,29 @@
+---
+abstract: 'Easy construction and use of asynchronous ZeroMQ sockets'
+author:
+  - 'Michael Alan Dorman <mdorman@ironicdesign.com>'
+build_requires:
+  AnyEvent::Log: 0
+  Data::Dumper: 0
+  Test::Compile: 0
+  Test::More: 0
+  strict: 0
+  warnings: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ZMQ-AnyEvent
+requires:
+  AnyEvent: 0
+  Moose: 0
+  Moose::Role: 0
+  MooseX::Role::Parameterized: 0
+  ZeroMQ::Constants: 0
+  ZeroMQ::Context: 0
+  namespace::autoclean: 0
+version: 0.001
